@@ -1,0 +1,324 @@
+FILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINED2022-08-07 16:37:57.355  INFO 13812 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 13812 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 16:37:57.358  INFO 13812 --- [main] com.example.SpringBootWebApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 16:37:57.925  INFO 13812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-08-07 16:37:57.926  INFO 13812 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 16:37:57.926  INFO 13812 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 16:37:57.926  INFO 13812 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 16:37:57.928  INFO 13812 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 16:37:57.932  INFO 13812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:37:57.932  INFO 13812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 16:37:58.007  INFO 13812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:37:58.007  INFO 13812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2022-08-07 16:37:58.210  INFO 13812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 16:37:58.392  INFO 13812 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bc44ce8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59072e9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@66273da0, org.springframework.security.web.header.HeaderWriterFilter@4649d70a, org.springframework.security.web.csrf.CsrfFilter@7a0ef219, org.springframework.security.web.authentication.logout.LogoutFilter@26dc9bd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25ad4f71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1229a2b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60f70249, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@455c1d8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58472096, org.springframework.security.web.session.SessionManagementFilter@38d17d80, org.springframework.security.web.access.ExceptionTranslationFilter@210308d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79b84841]
+2022-08-07 16:37:58.426  INFO 13812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-08-07 16:37:58.433  INFO 13812 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.357 seconds (JVM running for 1.84)
+2022-08-07 16:37:58.583  INFO 13812 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:37:58.584  INFO 13812 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:37:58.585  INFO 13812 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 16:37:58.601  INFO 13812 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-07 16:37:58.990  INFO 13812 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-07 16:47:32.202  INFO 13812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-07 16:47:32.207  INFO 13812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-07 16:47:35.442  INFO 11516 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 11516 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 16:47:35.444  INFO 11516 --- [main] com.example.SpringBootWebApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 16:47:36.093  INFO 11516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-08-07 16:47:36.093  INFO 11516 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 16:47:36.093  INFO 11516 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 16:47:36.093  INFO 11516 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 16:47:36.095  INFO 11516 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 16:47:36.100  INFO 11516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:47:36.100  INFO 11516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 16:47:36.189  INFO 11516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:47:36.189  INFO 11516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
+2022-08-07 16:47:36.423  INFO 11516 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 16:47:36.625  INFO 11516 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65e21ce3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c3659be, org.springframework.security.web.context.SecurityContextPersistenceFilter@43045f9f, org.springframework.security.web.header.HeaderWriterFilter@102ecc22, org.springframework.security.web.csrf.CsrfFilter@66273da0, org.springframework.security.web.authentication.logout.LogoutFilter@476fe690, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@467b684d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6403e24c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f46fa6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@611a990b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@522bf64e, org.springframework.security.web.session.SessionManagementFilter@26dc9bd5, org.springframework.security.web.access.ExceptionTranslationFilter@5fa23c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b131b2]
+2022-08-07 16:47:36.662  INFO 11516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-08-07 16:47:36.670  INFO 11516 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.506 seconds (JVM running for 1.963)
+2022-08-07 16:47:37.372  INFO 11516 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:47:37.372  INFO 11516 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:47:37.373  INFO 11516 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 16:47:37.391  INFO 11516 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-07 16:47:37.735  INFO 11516 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-07 16:47:38.221  WARN 11516 --- [http-nio-80-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2022-08-07 16:48:59.407  INFO 11516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-07 16:48:59.411  INFO 11516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-07 16:49:01.619  INFO 7188 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 7188 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 16:49:01.621  INFO 7188 --- [main] com.example.SpringBootWebApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 16:49:02.220  INFO 7188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-08-07 16:49:02.221  INFO 7188 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 16:49:02.221  INFO 7188 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 16:49:02.221  INFO 7188 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 16:49:02.223  INFO 7188 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 16:49:02.228  INFO 7188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:49:02.228  INFO 7188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 16:49:02.301  INFO 7188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:49:02.301  INFO 7188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 658 ms
+2022-08-07 16:49:02.499  INFO 7188 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 16:49:02.676  INFO 7188 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65e21ce3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c3659be, org.springframework.security.web.context.SecurityContextPersistenceFilter@43045f9f, org.springframework.security.web.header.HeaderWriterFilter@102ecc22, org.springframework.security.web.csrf.CsrfFilter@66273da0, org.springframework.security.web.authentication.logout.LogoutFilter@476fe690, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@467b684d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6403e24c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f46fa6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@611a990b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@522bf64e, org.springframework.security.web.session.SessionManagementFilter@26dc9bd5, org.springframework.security.web.access.ExceptionTranslationFilter@5fa23c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b131b2]
+2022-08-07 16:49:02.710  INFO 7188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-08-07 16:49:02.717  INFO 7188 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.387 seconds (JVM running for 1.948)
+2022-08-07 16:49:03.407  INFO 7188 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:49:03.407  INFO 7188 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:49:03.408  INFO 7188 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 16:49:03.426  INFO 7188 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-07 16:49:03.790  INFO 7188 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-07 16:49:04.310  WARN 7188 --- [http-nio-80-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2022-08-07 16:49:43.141  INFO 7188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-07 16:49:43.145  INFO 7188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-07 16:49:45.171  INFO 14664 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 14664 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 16:49:45.173  INFO 14664 --- [main] com.example.SpringBootWebApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 16:49:45.763  INFO 14664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-08-07 16:49:45.763  INFO 14664 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 16:49:45.763  INFO 14664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 16:49:45.763  INFO 14664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 16:49:45.765  INFO 14664 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 16:49:45.770  INFO 14664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:49:45.770  INFO 14664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 16:49:45.844  INFO 14664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:49:45.844  INFO 14664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2022-08-07 16:49:46.042  INFO 14664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 16:49:46.221  INFO 14664 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65e21ce3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c3659be, org.springframework.security.web.context.SecurityContextPersistenceFilter@43045f9f, org.springframework.security.web.header.HeaderWriterFilter@102ecc22, org.springframework.security.web.csrf.CsrfFilter@66273da0, org.springframework.security.web.authentication.logout.LogoutFilter@476fe690, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@467b684d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6403e24c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f46fa6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@611a990b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@522bf64e, org.springframework.security.web.session.SessionManagementFilter@26dc9bd5, org.springframework.security.web.access.ExceptionTranslationFilter@5fa23c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b131b2]
+2022-08-07 16:49:46.255  INFO 14664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-08-07 16:49:46.262  INFO 14664 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.363 seconds (JVM running for 1.82)
+2022-08-07 16:49:46.564  INFO 14664 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:49:46.564  INFO 14664 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:49:46.565  INFO 14664 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-07 16:49:46.583  INFO 14664 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-07 16:49:46.951  INFO 14664 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-07 16:49:47.395  WARN 14664 --- [http-nio-80-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2022-08-07 16:54:21.748  INFO 14664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-07 16:54:21.752  INFO 14664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-07 16:54:24.107  INFO 16908 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 16908 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 16:54:24.108  INFO 16908 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "prod"
+2022-08-07 16:54:24.781  INFO 16908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-08-07 16:54:24.782  INFO 16908 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 16:54:24.782  INFO 16908 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 16:54:24.782  INFO 16908 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 16:54:24.784  INFO 16908 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 16:54:24.789  INFO 16908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:54:24.789  INFO 16908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 16:54:24.867  INFO 16908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:54:24.867  INFO 16908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 729 ms
+2022-08-07 16:54:25.079  INFO 16908 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 16:54:25.264  INFO 16908 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36681447, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d21c56e, org.springframework.security.web.context.SecurityContextPersistenceFilter@60bbacfc, org.springframework.security.web.header.HeaderWriterFilter@21bd20ee, org.springframework.security.web.csrf.CsrfFilter@6d1dcdff, org.springframework.security.web.authentication.logout.LogoutFilter@3e33d73e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b65d9f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@255eaa6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@352c44a8, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4d95a72e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@726aa968, org.springframework.security.web.session.SessionManagementFilter@421056e5, org.springframework.security.web.access.ExceptionTranslationFilter@9596ce8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f0f9947]
+2022-08-07 16:54:25.300  INFO 16908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-08-07 16:54:25.307  INFO 16908 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.552 seconds (JVM running for 2.085)
+2022-08-07 16:54:25.900  INFO 16908 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:54:25.901  INFO 16908 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:54:25.902  INFO 16908 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-07 16:54:25.918  INFO 16908 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-07 16:54:26.293  INFO 16908 --- [http-nio-80-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-07 16:54:26.827  WARN 16908 --- [http-nio-80-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2022-08-07 17:01:09.619  INFO 16908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-07 17:01:09.624  INFO 16908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-07 17:01:14.636  INFO 16348 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 16348 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:01:14.637  INFO 16348 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "prod"
+2022-08-07 17:01:15.299  INFO 16348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:01:15.299  INFO 16348 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:01:15.299  INFO 16348 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:01:15.300  INFO 16348 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:01:15.302  INFO 16348 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:01:15.308  INFO 16348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:01:15.308  INFO 16348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:01:15.386  INFO 16348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:01:15.386  INFO 16348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2022-08-07 17:01:15.443  WARN 16348 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userAuthService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainMapper' defined in file [D:\Program\Java\IdeaProject\SpringBootWeb\target\classes\com\example\mapper\MainMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-08-07 17:01:15.444  INFO 16348 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 17:01:15.453  INFO 16348 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 17:01:15.467 ERROR 16348 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
+2022-08-07 17:04:03.821  INFO 7196 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 7196 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:04:03.823  INFO 7196 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "@environment@"
+2022-08-07 17:04:04.439  INFO 7196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:04:04.439  INFO 7196 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:04:04.439  INFO 7196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:04:04.440  INFO 7196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:04:04.442  INFO 7196 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:04:04.447  INFO 7196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:04:04.447  INFO 7196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:04:04.519  INFO 7196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:04:04.519  INFO 7196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 664 ms
+2022-08-07 17:04:04.571  WARN 7196 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userAuthService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainMapper' defined in file [D:\Program\Java\IdeaProject\SpringBootWeb\target\classes\com\example\mapper\MainMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-08-07 17:04:04.573  INFO 7196 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 17:04:04.581  INFO 7196 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 17:04:04.592 ERROR 7196 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles @environment@ are currently active).
+
+2022-08-07 17:04:41.772  INFO 15892 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 15892 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:04:41.773  INFO 15892 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "dev"
+2022-08-07 17:04:42.336  INFO 15892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:04:42.337  INFO 15892 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:04:42.337  INFO 15892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:04:42.337  INFO 15892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:04:42.339  INFO 15892 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:04:42.344  INFO 15892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:04:42.344  INFO 15892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:04:42.416  INFO 15892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:04:42.416  INFO 15892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2022-08-07 17:04:42.467  WARN 15892 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userAuthService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainMapper' defined in file [D:\Program\Java\IdeaProject\SpringBootWeb\target\classes\com\example\mapper\MainMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-08-07 17:04:42.469  INFO 15892 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 17:04:42.477  INFO 15892 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 17:04:42.487 ERROR 15892 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-08-07 17:05:06.218  INFO 14864 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 14864 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:05:06.220  INFO 14864 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "dev"
+2022-08-07 17:05:06.854  INFO 14864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:05:06.855  INFO 14864 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:05:06.855  INFO 14864 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:05:06.855  INFO 14864 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:05:06.857  INFO 14864 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:05:06.861  INFO 14864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:05:06.862  INFO 14864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:05:06.934  INFO 14864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:05:06.934  INFO 14864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 684 ms
+2022-08-07 17:05:07.134  INFO 14864 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 17:05:07.329  INFO 14864 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4745e9c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f2bff16, org.springframework.security.web.context.SecurityContextPersistenceFilter@623dcf2a, org.springframework.security.web.header.HeaderWriterFilter@6edcad64, org.springframework.security.web.csrf.CsrfFilter@60bbacfc, org.springframework.security.web.authentication.logout.LogoutFilter@654c7d2d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6dcc40f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e84fb85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bc28f40, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@56da7487, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75de29c0, org.springframework.security.web.session.SessionManagementFilter@3e33d73e, org.springframework.security.web.access.ExceptionTranslationFilter@5df778c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cd3b138]
+2022-08-07 17:05:07.364  INFO 14864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:05:07.374  INFO 14864 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.466 seconds (JVM running for 1.992)
+2022-08-07 17:07:31.900  INFO 18680 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 18680 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:07:31.902  INFO 18680 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "dev"
+2022-08-07 17:07:32.461  INFO 18680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:07:32.461  INFO 18680 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:07:32.461  INFO 18680 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:07:32.461  INFO 18680 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:07:32.463  INFO 18680 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:07:32.468  INFO 18680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:07:32.468  INFO 18680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:07:32.540  INFO 18680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:07:32.540  INFO 18680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 615 ms
+2022-08-07 17:07:32.592  WARN 18680 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userAuthService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainMapper' defined in file [D:\Program\Java\IdeaProject\SpringBootWeb\target\classes\com\example\mapper\MainMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-08-07 17:07:32.594  INFO 18680 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 17:07:32.602  INFO 18680 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 17:07:32.613 ERROR 18680 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-08-07 17:07:53.573  INFO 11344 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 11344 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:07:53.575  INFO 11344 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "dev"
+2022-08-07 17:07:54.263  INFO 11344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:07:54.264  INFO 11344 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:07:54.264  INFO 11344 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:07:54.264  INFO 11344 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:07:54.266  INFO 11344 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:07:54.271  INFO 11344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:07:54.271  INFO 11344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:07:54.351  INFO 11344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:07:54.351  INFO 11344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2022-08-07 17:07:54.409  WARN 11344 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userAuthService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainMapper' defined in file [D:\Program\Java\IdeaProject\SpringBootWeb\target\classes\com\example\mapper\MainMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-08-07 17:07:54.411  INFO 11344 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 17:07:54.420  INFO 11344 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 17:07:54.431 ERROR 11344 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-08-07 17:08:02.263  INFO 12256 --- [main] com.example.SpringBootWebApplication     : Starting SpringBootWebApplication using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 12256 (D:\Program\Java\IdeaProject\SpringBootWeb\target\classes started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:08:02.264  INFO 12256 --- [main] com.example.SpringBootWebApplication     : The following 1 profile is active: "dev"
+2022-08-07 17:08:02.842  INFO 12256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 17:08:02.843  INFO 12256 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-08-07 17:08:02.843  INFO 12256 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-07 17:08:02.843  INFO 12256 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-07 17:08:02.845  INFO 12256 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-08-07 17:08:02.849  INFO 12256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 17:08:02.850  INFO 12256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-07 17:08:02.922  INFO 12256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 17:08:02.922  INFO 12256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 636 ms
+2022-08-07 17:08:03.121  INFO 12256 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 17:08:03.295  INFO 12256 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@296e281a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59cda16e, org.springframework.security.web.context.SecurityContextPersistenceFilter@646c0a67, org.springframework.security.web.header.HeaderWriterFilter@623dcf2a, org.springframework.security.web.csrf.CsrfFilter@7a0e7ecd, org.springframework.security.web.authentication.logout.LogoutFilter@1e7ab390, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@599e4d41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@117525fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22a6e998, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4745e9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dd903be, org.springframework.security.web.session.SessionManagementFilter@e84fb85, org.springframework.security.web.access.ExceptionTranslationFilter@6edcad64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a098d76]
+2022-08-07 17:08:03.326  INFO 12256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 17:08:03.334  INFO 12256 --- [main] com.example.SpringBootWebApplication     : Started SpringBootWebApplication in 1.35 seconds (JVM running for 1.799)
+2022-08-07 17:09:27.231  INFO 18684 --- [main] c.example.SpringBootWebApplicationTests  : Starting SpringBootWebApplicationTests using Java 1.8.0_341 on LAPTOP-0JMA6M60 with PID 18684 (started by lu156 in D:\Program\Java\IdeaProject\SpringBootWeb)
+2022-08-07 17:09:27.232  INFO 18684 --- [main] c.example.SpringBootWebApplicationTests  : The following 1 profile is active: "dev"
+2022-08-07 17:09:28.410  INFO 18684 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-07 17:09:29.028  INFO 18684 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bc24e72, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@724aefc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@766a49c7, org.springframework.security.web.header.HeaderWriterFilter@51a18b21, org.springframework.security.web.csrf.CsrfFilter@3166f664, org.springframework.security.web.authentication.logout.LogoutFilter@76a14c8d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1220ef43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75e27856, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cb39552, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@d08edc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cfb4736, org.springframework.security.web.session.SessionManagementFilter@7c52fc81, org.springframework.security.web.access.ExceptionTranslationFilter@3ce443f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@360e9c06]
+2022-08-07 17:09:29.105  INFO 18684 --- [main] c.example.SpringBootWebApplicationTests  : Started SpringBootWebApplicationTests in 2.153 seconds (JVM running for 2.817)
