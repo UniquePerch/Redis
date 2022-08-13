@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_mannage
+    username: root
+    password: lyh701721
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    database: 0 #
+  mail:
+    host: smtp.qq.com
+    username: 1563814178@qq.com
+    password: xtmerkdexyzygaig
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+springfox:
+  documentation:
+    enabled: false
